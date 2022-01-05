@@ -6,8 +6,11 @@ export default {
 
 <template>
   <div class="main">
-    <carbon-logo-youtube class="icon-btn mx-2" />
-    <carbon-hotel class="icon-btn mx-2" />
+    <carbon-home class="icon-btn mx-2" width="75px" height="75px" label="Home" />
+    <carbon-restaurant class="icon-btn mx-2" width="75px" height="75px" />
+    <carbon-hotel class="icon-btn mx-2" width="75px" height="75px" />
+    <carbon-game-console class="icon-btn mx-2" width="75px" height="75px" />
+    <carbon-printer class="icon-btn mx-2" width="75px" height="75px" />
   </div>
 </template>
 
