@@ -12,10 +12,6 @@ const go = () => {
 const { t } = useI18n()
 </script>
 
-<template>
-  <Card />
-</template>
-
 <route lang="yaml">
 meta:
   layout: home

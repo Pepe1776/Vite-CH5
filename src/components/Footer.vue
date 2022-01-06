@@ -11,17 +11,13 @@ const toggleLocales = () => {
 </script>
 
 <template>
-  <nav class="text-xl mt-6">
+  <nav class="text-xl mt-6 footer">
     <button class="icon-btn mx-2 !outline-none" :title="t('button.toggle_dark')" @click="toggleDark()">
       <carbon-moon v-if="isDark" />
       <carbon-sun v-else />
     </button>
     <router-link class="icon-btn mx-2" to="/" :title="t('button.home')">
       <carbon-campsite />
-    </router-link>
-
-    <router-link class="icon-btn mx-2" to="/about" :title="t('button.about')">
-      <carbon-dicom-overlay />
     </router-link>
 
     <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/pepe1776" target="_blank" title="GitHub">
@@ -32,3 +28,22 @@ const toggleLocales = () => {
     </a>
   </nav>
 </template>
+
+  <styles lang="scss">
+    .footer {
+      position: fixed;
+      bottom: 0px;
+      left: 45.5%;
+      display: flex;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .icon-btn {
+      float: center;
+      display: inline-block;
+      text-align: center;
+    }
+    a {
+      align: center;
+      }
+  </styles>
