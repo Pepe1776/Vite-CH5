@@ -13,3 +13,9 @@ useHead({
 <template>
   <router-view />
 </template>
+
+<styles lang="scss">
+html {
+  font-size: 10px;
+}
+</styles>

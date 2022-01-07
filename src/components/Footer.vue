@@ -11,7 +11,7 @@ const toggleLocales = () => {
 </script>
 
 <template>
-  <nav class="text-xl mt-6 footer">
+  <nav class="flex justify-center text-xl mt-6 footer">
     <button class="icon-btn mx-2 !outline-none" :title="t('button.toggle_dark')" @click="toggleDark()">
       <carbon-moon v-if="isDark" />
       <carbon-sun v-else />
@@ -33,17 +33,9 @@ const toggleLocales = () => {
     .footer {
       position: fixed;
       bottom: 0px;
-      left: 45.5%;
       display: flex;
       width: 100%;
       margin-bottom: 20px;
     }
-    .icon-btn {
-      float: center;
-      display: inline-block;
-      text-align: center;
-    }
-    a {
-      align: center;
-      }
+
   </styles>
