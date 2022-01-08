@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "ACMA,AAAA,IAAI,AAAC,CACD,KAAK,CALH,OAAO,CAMZ",
+    "sources": [
+        "../Sass/Main.scss",
+        "../Sass/_Abstracts.scss",
+        "../Sass/_Buttons.scss",
+        "../Sass/_Components.scss",
+        "../Sass/_Layout.scss"
+    ],
+    "names": [],
+    "file": "Main.min.css"
+}
