@@ -4,7 +4,9 @@ specifiers:
   '@antfu/eslint-config': ^0.14.0
   '@crestron/ch5-crcomlib': ^1.2.0
   '@iconify-json/carbon': ^1.0.12
+  '@iconify-json/ci': ^1.0.1
   '@iconify-json/ic': ^1.0.7
+  '@iconify-json/ph': ^1.0.4
   '@iconify-json/twemoji': ^1.0.2
   '@iconify-json/whh': ^1.0.1
   '@intlify/vite-plugin-vue-i18n': ^3.2.1
@@ -66,7 +68,9 @@ dependencies:
 devDependencies:
   '@antfu/eslint-config': 0.14.0_eslint@8.5.0+typescript@4.5.4
   '@iconify-json/carbon': 1.0.12
+  '@iconify-json/ci': 1.0.1
   '@iconify-json/ic': 1.0.7
+  '@iconify-json/ph': 1.0.4
   '@iconify-json/twemoji': 1.0.2
   '@iconify-json/whh': 1.0.1
   '@intlify/vite-plugin-vue-i18n': 3.2.1_vite@2.7.6+vue-i18n@9.1.9
@@ -1440,8 +1444,20 @@ packages:
       '@iconify/types': 1.0.10
     dev: true
 
+  /@iconify-json/ci/1.0.1:
+    resolution: {integrity: sha512-ilAzlJEraKkzyIUky/J9ZzPlVHiM8RSlz69K7ynb4tXoeA5iq+RUVs1sFU4Zq4Dq8uFRta83kBdHG/ehCPpwHw==}
+    dependencies:
+      '@iconify/types': 1.0.12
+    dev: true
+
   /@iconify-json/ic/1.0.7:
     resolution: {integrity: sha512-Cz2u1h+L/aMmeyKrcYVUY0SZdntvYK4cD5XrdT+XnyESh6IwzJ9hyNaIBGL6fnz5KCL7AfmFMlBhs0bilhrwXQ==}
+    dependencies:
+      '@iconify/types': 1.0.12
+    dev: true
+
+  /@iconify-json/ph/1.0.4:
+    resolution: {integrity: sha512-hcxC2k25/Lh/bgXgbwAD4WvnC8BeunSqafFwIOyL1dCu3QGBgKmPFIBUv4W2kBm+rbrv7F3WHPFBAJDVrjpunA==}
     dependencies:
       '@iconify/types': 1.0.12
     dev: true

@@ -12,19 +12,19 @@ export default {
       class="btm icon-btn "
       label="Living Room"
     >
-      <whh-home class="btm icon-btn col-span-1 " width="6.5rem" height="6.5rem" label="Home" />
+      <ph-house-line-light class="btm icon-btn col-span-1 " width="6.5rem" height="6.5rem" label="Home" />
     </router-link>
     <router-link to="Kitchen" class="btm icon-btn " width="6.5rem" height="6.5rem" label="Kitchen">
-      <whh-circlefork class="btm icon-btn col-span-1 " width="6.5rem" height="6.5rem" />
+      <ph-fork-knife-light class="btm icon-btn col-span-1 " width="6.5rem" height="6.5rem" />
     </router-link>
     <router-link to="Bedroom" class="btm icon-btn " width="6.5rem" height="6.5rem" label="Bedroom">
-      <whh-bed class="btm icon-btn col-span-1" width="6.5rem" height="6.5rem" />
+      <ph-bed-light class="btm icon-btn col-span-1" width="6.5rem" height="6.5rem" />
     </router-link>
     <router-link to="Theater" class="btm icon-btn " width="6.5rem" height="6.5rem" label="Theater">
-      <whh-facetimevideo class="btm icon-btn col-span-1 " width="6.5rem" height="6.5rem" />
+      <ph-film-slate-light class="btm icon-btn col-span-1 " width="6.5rem" height="6.5rem" />
     </router-link>
     <router-link to="Office" class="btm icon-btn " width="6.5rem" height="6.5rem" label="Office">
-      <whh-desklamp class="btm icon-btn col-span-1 " width="6.5rem" height="6.5rem" />
+      <ph-printer-light class="btm icon-btn col-span-1 " width="6.5rem" height="6.5rem" />
     </router-link>
   </div>
 </template>
@@ -38,7 +38,7 @@ export default {
   overflow: hidden;
   position: fixed;
   bottom: 0;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   width: 100%;
 
 }
