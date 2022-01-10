@@ -35,7 +35,7 @@ const toggleLocales = () => {
       bottom: 0px;
       display: flex;
       width: 100%;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
 
   </styles>

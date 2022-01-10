@@ -7,7 +7,6 @@ export default {
 <template>
   <div class="nav grid-cols-5 gap-1.5rem">
     <router-link
-      whh-home
       to="LivingRoom"
       class="btm icon-btn "
       label="Living Room"
