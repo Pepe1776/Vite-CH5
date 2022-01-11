@@ -9,6 +9,7 @@ declare module 'vue' {
     CarbonLogoGithub: typeof import('~icons/carbon/logo-github')['default']
     CarbonMoon: typeof import('~icons/carbon/moon')['default']
     CarbonSun: typeof import('~icons/carbon/sun')['default']
+    CarbonWarning: typeof import('~icons/carbon/warning')['default']
     Card: typeof import('./components/Card.vue')['default']
     Footer: typeof import('./components/Footer.vue')['default']
     PhBedLight: typeof import('~icons/ph/bed-light')['default']
@@ -20,6 +21,7 @@ declare module 'vue' {
     PhPrinterLight: typeof import('~icons/ph/printer-light')['default']
     PhVideoCameraLight: typeof import('~icons/ph/video-camera-light')['default']
     README: typeof import('./components/README.md')['default']
+    SideBar: typeof import('./components/SideBar.vue')['default']
   }
 }
 
