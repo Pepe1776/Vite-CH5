@@ -11,6 +11,8 @@ declare module 'vue' {
     CarbonSun: typeof import('~icons/carbon/sun')['default']
     Card: typeof import('./components/Card.vue')['default']
     Footer: typeof import('./components/Footer.vue')['default']
+    Modal: typeof import('./components/Modal.vue')['default']
+    PhBackspaceLight: typeof import('~icons/ph/backspace-light')['default']
     PhBedLight: typeof import('~icons/ph/bed-light')['default']
     PhFilmSlateLight: typeof import('~icons/ph/film-slate-light')['default']
     PhForkKnifeLight: typeof import('~icons/ph/fork-knife-light')['default']

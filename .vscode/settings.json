@@ -12,4 +12,5 @@
     "*.css": "postcss",
   },
   "editor.formatOnSave": false,
+  "editor.tabCompletion": "onlySnippets"
 }
