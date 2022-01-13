@@ -10,6 +10,7 @@ specifiers:
   '@iconify-json/twemoji': ^1.0.2
   '@iconify-json/whh': ^1.0.1
   '@intlify/vite-plugin-vue-i18n': ^3.2.1
+  '@putout/plugin-convert-commonjs-to-esm': ^7.0.0
   '@types/markdown-it-link-attributes': ^3.0.1
   '@types/nprogress': ^0.2.0
   '@vitejs/plugin-vue': ^2.0.1
@@ -53,6 +54,7 @@ specifiers:
 
 dependencies:
   '@crestron/ch5-crcomlib': 1.2.0
+  '@putout/plugin-convert-commonjs-to-esm': 7.0.0
   '@vueuse/core': 7.4.1_vue@3.2.26
   '@vueuse/head': 0.7.4_vue@3.2.26
   node-sass: 7.0.1
@@ -1642,6 +1644,15 @@ packages:
   /@polka/url/1.0.0-next.20:
     resolution: {integrity: sha512-88p7+M0QGxKpmnkfXjS4V26AnoC/eiqZutE8GLdaI5X12NY75bXSdTY9NkmYb2Xyk1O+MmkuO6Frmsj84V6I8Q==}
     dev: true
+
+  /@putout/plugin-convert-commonjs-to-esm/7.0.0:
+    resolution: {integrity: sha512-ht0+jZmMHndEwJ11lOW0feKXxceoi4le4AwVDr7p27psyyZzFDTX7aC1S7N/FIo066XMv+Fay1sfuyLmuZuQIw==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      putout: '>=23'
+    dependencies:
+      just-camel-case: 4.0.2
+    dev: false
 
   /@rollup/plugin-babel/5.3.0_@babel+core@7.15.5+rollup@2.61.1:
     resolution: {integrity: sha512-9uIC8HZOnVLrLHxayq/PTzw+uS25E14KPUBh5ktF+18Mjo5yK0ToMMx6epY0uEgkjwJw0aBW4x2horYXh8juWw==}
@@ -5247,6 +5258,10 @@ packages:
       array-includes: 3.1.4
       object.assign: 4.1.2
     dev: true
+
+  /just-camel-case/4.0.2:
+    resolution: {integrity: sha512-df6QI/EIq+6uHe/wtaa9Qq7/pp4wr4pJC/r1+7XhVL6m5j03G6h9u9/rIZr8rDASX7CxwDPQnZjffCo2e6PRLw==}
+    dev: false
 
   /kind-of/6.0.3:
     resolution: {integrity: sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==}
